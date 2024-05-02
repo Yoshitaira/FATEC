@@ -1,0 +1,264 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* 
+main{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 1129px;
+} */
+
+.p-slider{
+    margin: 50px 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT sans', sans-serif;
+}
+
+.p-slider a{
+    text-decoration: none;
+}
+
+.p-slider-heading{
+    font-size: 28px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.product-box{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 15px;
+    margin: 0px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+.p-img-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.p-img a,
+.p-img{
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+
+.p-img a img
+{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+}
+
+.p-box-text
+{
+    margin-top: 5px;
+    width: 100%;
+}
+
+.prouct-category
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-category span
+{
+    color: whitesmoke;
+    font-size: 0.9rem;
+    margin: 5px 0px;
+}
+
+.product-title
+{
+    color: whitesmoke;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+
+.product-title:hover
+{
+    color: rgba(108, 106, 237, 1);
+    opacity: 0.7;
+    transition: all ease 0.3s;
+}
+
+.price-buy
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.price-buy .p-price
+{
+    font-size: 1.3rem;
+    color: whitesmoke;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.price-buy .p-buy-btn
+{
+    color: rgba(108, 106, 237, 1);
+    margin: 0px 5px;
+    font-weight: 600;
+    
+}
+
+.price-buy .p-buy-btn:hover
+{
+    text-transform: uppercase;
+}
+
+.p-slider2{
+    display:none
+}
+
+@media only screen and (max-width: 920px){
+    .p-slider{
+        display: none;
+    }
+    .p-slider2{
+        margin: 0 0;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'PT sans', sans-serif;
+    }
+    .p-slider2 a{
+        text-decoration: none;
+    }
+    
+    .p-slider-heading{
+        font-size: 28px;
+        text-transform: uppercase;
+        color: whitesmoke;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+    
+    .product-box{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        padding: 15px;
+        margin: 0px 20px;
+        font-size: 20px;
+        font-family: sans-serif;
+        color: whitesmoke;
+    }
+    
+    .p-img-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        overflow: hidden;
+    }
+    
+    .p-img a,
+    .p-img{
+        width: 100%;
+        height: 350px;
+        display: flex;
+    }
+    
+    .p-img a img
+    {
+        width: 100%;
+        height: 100%;
+        object-position: center;
+        object-fit: contain;
+    }
+    
+    .p-box-text
+    {
+        margin-top: 5px;
+        width: 100%;
+    }
+    
+    .prouct-category
+    {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .product-category span
+    {
+        color: whitesmoke;
+        font-size: 0.9rem;
+        margin: 5px 0px;
+    }
+    
+    .product-title
+    {
+        color: whitesmoke;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all ease 0.3s;
+    }
+    
+    .product-title:hover
+    {
+        color: rgba(108, 106, 237, 1);
+        opacity: 0.7;
+        transition: all ease 0.3s;
+    }
+    
+    .price-buy
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8px;
+    }
+    
+    .price-buy .p-price
+    {
+        font-size: 1.3rem;
+        color: whitesmoke;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    .price-buy .p-buy-btn
+    {
+        color: rgba(108, 106, 237, 1);
+        margin: 0px 5px;
+        font-weight: 600;
+        
+    }
+    
+    .price-buy .p-buy-btn:hover
+    {
+        text-transform: uppercase;
+    }
+    
+}

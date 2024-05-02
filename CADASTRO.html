@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO</title>
+
+    <link rel="stylesheet" href="css/cadastro.css">
+    <script src=""></script>
+</head>
+<body>
+    
+    <main class="cad-box">
+
+        <div id="p"><p>SEJA BEM-VINDO!</p></div>
+
+    <form action="" method="post" onsubmit="return(veriifica())" name="frmENVIA" class="input">
+
+        <input type="text" name="CPF" id="CPF" onblur="checarCPF();" placeholder="CPF">
+        <input autocomplete="off" name="email" id="email" type="email" onblur="checaremail();" placeholder="E-mail">
+        <input name="nome" id="nome" type="text" placeholder="Nome Completo">
+        <input id="senha" name="password" type="password" placeholder="Senha">
+        <input id="rsenha" name="rpassword" type="password" placeholder=" Repita sua senha">
+
+        <button type="submit" id="Cadastrar" href="INDEX.html">Cadastrar</button>
+
+    </form>
+
+    </main>
+</body>
+</html>
